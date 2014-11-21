@@ -5,8 +5,14 @@ $(document).ready(function(){
 	});
   
   $('#ha').click(function(e){
+    $(e.target).text('Nope.');
+    $(e.target).css({'top' : Math.floor(Math.random() * 500) + 'px', 
+                     'left' :  Math.floor(Math.random() * 900) + 'px', 
+    	             'background-color' : "orange"
+    });
     e.preventDefault();
   });
+
   
   
   var count = 10
