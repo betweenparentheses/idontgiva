@@ -1,11 +1,7 @@
 $(document).ready(function(){
   
   $('#ha').hover(function(e){
-    //$(e.target).css({'top' : Math.floor(Math.random() * 500) + 'px', 'left' :  Math.floor(Math.random() * 900) + 'px'});
-  	$(e.target).text('Nope.');
-        $(e.target).css({'top' : Math.floor(Math.random() * 500) + 'px', 
-                     'left' :  Math.floor(Math.random() * 900) + 'px', 
-    	             'background-color' : "orange"
+    $(e.target).css({'top' : Math.floor(Math.random() * 500) + 'px', 'left' :  Math.floor(Math.random() * 900) + 'px'});
     });
 	});
   
