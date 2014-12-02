@@ -21,9 +21,9 @@ h1, h2 {
   height: 50px;
   font-size: 15px;
   font-weight: bold;
-  border: 2px solid white;
+  border: none;
   background-color: lightblue;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 span {
